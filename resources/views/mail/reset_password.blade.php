@@ -4,7 +4,7 @@
     We received a request to change your password.
     If you are not initiator of this request, please let us know for the security of your account.
     <br>If you are the initiator click to link below to reset your password<br>
-    <a href="#" target="_blank">Reset password</a>
+    <a href="{{ route('app_changepassword', ['token' => $activation_token]) }}" target="_blank">Reset password</a>
 </p>
 
 <p>
